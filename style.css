@@ -179,7 +179,7 @@ p.price-card strong{
             flex-direction: column;
             align-items: center;
             text-align: center;
-            padding: 60px 20px 40px 20px;
+            padding: 60px 20px 10px 20px;
         }
         
         header h1{
@@ -195,9 +195,11 @@ p.price-card strong{
         }
 
         section#cards{
+            position: static;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             gap: 20px;
             padding-bottom: 30px;
         }
